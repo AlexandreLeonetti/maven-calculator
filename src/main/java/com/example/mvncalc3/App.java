@@ -3,6 +3,7 @@ package com.example.mvncalc3;
 /*
  * file new maven project
  * chose :
+ * catalogs : internal
  * maven-archetype-quickstart
  *myproject
 ├── pom.xml
@@ -65,6 +66,12 @@ public class App{
 	 */
 	public static void main(String[] args) {
 		System.out.println("Maven calculator 3 Java 17");
+		String test = """
+				one
+				two
+				three
+				""";
+		System.out.println(test);
 EventQueue.invokeLater(new Runnable() {
 	public void run() {
 		try {
